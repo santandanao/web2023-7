@@ -1,6 +1,6 @@
 function gazo101(){
   document.getElementById('who101').innerHTML=
-    '<img src="./image/DJL2qVDUEAAOOkO.jpg" alt="昔の金の国">'
+    '<img src="./image/DJL2qVDUEAAOOkO.jpg" alt="昔の金の国" width="600" height="400">'
   ;}
 function gazo102(){
   document.getElementById('who101').innerHTML=
