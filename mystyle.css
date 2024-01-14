@@ -3,3 +3,38 @@ body{background-color:#e5f2ff;}
 h1{color:#ff56aa;}
 
 h2{color:#56aaff;}
+
+
+ /*== 開閉式もくじ ==*/
+.contents_box {
+    padding: 10px;
+    font-size:1rem;/*タイトルのフォントサイズ*/
+    color:#696969;/*タイトルの文字色*/
+    background-color:#fff7ef;/*背景色*/
+    border:1px solid #696969;/*外枠線- 色*/
+}
+
+/*== 開閉文字装飾 ==*/
+.contents_box label {
+    padding: 5px;
+    color:#ffa54c; /*文字色*/
+    font-size:1rem;/*フォントサイズ*/
+    cursor:pointer;
+    border-bottom: 1px dotted #ffa54c;/*下線*/
+}
+
+/*開く*/
+.contents_box label:before{
+    display: inline-block;
+    content: "[ 開く ]";/*"表示"などに変更可*/}
+/*閉じる*/
+.contents_box input:checked ~ label:before {
+     content: "[ 閉じる ]";/*"非表示"などに変更可*/}
+
+.contents_box input{display:none;}
+/*最初は非表示*/
+.contents_box .hidden_show
+{height:0;padding:0;overflow:hidden;transition:0.8s;}
+/*クリックでopen*/
+.contents_box input:checked ~ .hidden_show
+{padding: 10px 0;height:auto;}
