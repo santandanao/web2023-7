@@ -10,14 +10,14 @@ h2{color:#56aaff;}
     padding: 10px;
     font-size:1rem;/*タイトルのフォントサイズ*/
     color:#696969;/*タイトルの文字色*/
-    background-color:#fff7ef;/*背景色*/
+    background-color:#f4f4ff;/*背景色*/
     border:1px solid #696969;/*外枠線- 色*/
 }
 
 /*== 開閉文字装飾 ==*/
 .contents_box label {
     padding: 5px;
-    color:#ffa54c; /*文字色*/
+    color:#cc99ff; /*文字色*/
     font-size:1rem;/*フォントサイズ*/
     cursor:pointer;
     border-bottom: 1px dotted #ffa54c;/*下線*/
