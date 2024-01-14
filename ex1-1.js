@@ -5,5 +5,5 @@ function gazo101(){
   ;}
 function gazo102(){
   document.getElementById('who101').innerHTML=
-    '<img src="./image/" alt="マグロ">'
+    '<img src="./image/DJL2qVDUEAAOOkO.jpg" alt="昔の金の国">'
   ;}
